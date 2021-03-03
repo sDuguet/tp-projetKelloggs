@@ -11,7 +11,8 @@
   },
   "scripts": {
     "serve": "parcel src/index.pug",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
