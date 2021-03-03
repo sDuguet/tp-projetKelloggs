@@ -1,12 +1,3 @@
-/* 
-Propriétés interdites :
-  width
-  height
-  float
-  position
-  transform
-*/
-
 @import "./reset.scss";
 
 * {
@@ -15,10 +6,6 @@ Propriétés interdites :
 
 img {
   max-width: 100%;
-}
-
-:root {
-  --gradiant: linear-gradient(rgb(255, 237, 0), rgb(119, 115, 30));
 }
 
 body {
