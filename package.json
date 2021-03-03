@@ -1,0 +1,27 @@
+{
+  "name": "tp-responsive-01-flex",
+  "version": "1.0.0",
+  "description": "Pour se familiariser avec les différentes propriétés :\r [Flexbox Froggy](https://flexboxfroggy.com/#fr)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "pug": "^3.0.0",
+    "sass": "^1.32.6"
+  },
+  "scripts": {
+    "serve": "parcel src/index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sDuguet/tp-responsive-01-flex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sDuguet/tp-responsive-01-flex/issues"
+  },
+  "homepage": "https://github.com/sDuguet/tp-responsive-01-flex#readme"
+}
