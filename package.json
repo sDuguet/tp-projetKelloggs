@@ -12,7 +12,7 @@
   "scripts": {
     "serve": "parcel src/index.pug",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.pug"
   },
   "repository": {
     "type": "git",
