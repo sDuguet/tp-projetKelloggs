@@ -1,4 +1,8 @@
-@import "./reset.scss";
+@import "./styles/reset.scss";
+@import "./styles/header.scss";
+@import "./styles/slider.scss";
+
+/* ----- */
 
 @font-face {
   font-family: "alphakindregular";
@@ -16,6 +20,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "bubbble_gumlight";
+  src: url("../fonts/bubble/bubbblegum-light-webfont.woff2") format("woff2"),
+    url("../fonts/bubble/bubbblegum-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ----- */
 
 * {
@@ -27,41 +39,6 @@ img {
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "bubbble_gumlight";
   text-align: center;
-}
-
-figcaption {
-  font-weight: bold;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: -1px;
-  background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0) 67%,
-      rgba(0, 0, 0, 0.67) 100%
-    )
-    #e72d2d;
-}
-
-.header__title {
-  font-family: "the_bold_fontbold";
-  color: white;
-  display: inline-block;
-  width: 85%;
-  margin-top: 20px;
-  font-size: 26px;
-}
-
-.header__title--bold {
-  font-family: "alphakindregular";
-  font-size: 28px;
-}
-
-.header__mascotte {
-  width: 80%;
 }

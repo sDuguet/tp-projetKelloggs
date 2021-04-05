@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -1px;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 67%,
+      rgba(0, 0, 0, 0.67) 100%
+    )
+    #e72d2d;
+}
+
+.header__title {
+  font-family: "the_bold_fontbold";
+  color: white;
+  display: inline-block;
+  width: 85%;
+  margin-top: 1.25rem;
+  font-size: 1.75rem;
+}
+
+.header__title--bold {
+  font-family: "alphakindregular";
+  font-size: 1.8rem;
+}
+
+.header__mascotte {
+  width: 80%;
+  max-width: 500px;
+}
+
+.header__text {
+  margin: 0 10px;
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.header__text p {
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+}

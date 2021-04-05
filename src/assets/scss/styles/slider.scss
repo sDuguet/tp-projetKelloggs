@@ -1,0 +1,146 @@
+.main__text {
+  padding: 0 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main__text h2 {
+  font-family: "alphakindregular";
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.main__text p {
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* --- Slider --- */
+.slider {
+  width: 150px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.slides {
+  width: calc(150px * 6);
+  margin: 40px auto;
+  animation: glisse 20s infinite;
+}
+
+.slide {
+  float: left;
+  width: 150px;
+}
+
+@keyframes glisse {
+  0% {
+    transform: translateX(0);
+  }
+  8% {
+    transform: translateX(0);
+  }
+  17% {
+    transform: translateX(-150px);
+  }
+  25% {
+    transform: translateX(-150px);
+  }
+  33% {
+    transform: translateX(-300px);
+  }
+  41% {
+    transform: translateX(-300px);
+  }
+  50% {
+    transform: translateX(-450px);
+  }
+  58% {
+    transform: translateX(-450px);
+  }
+  67% {
+    transform: translateX(-600px);
+  }
+  75% {
+    transform: translateX(-600px);
+  }
+  83% {
+    transform: translateX(-750px);
+  }
+  91% {
+    transform: translateX(-750px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+/* ----- */
+
+figcaption {
+  font-family: "alphakindregular";
+}
+
+@media (min-width: 500px) {
+  .slider {
+    width: 90%;
+    overflow: visible;
+    margin: 20px auto;
+  }
+
+  .slides {
+    width: 90%;
+    display: grid;
+    animation: none;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+  }
+
+  .slide {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .slider {
+    width: 90%;
+    overflow: visible;
+    margin: 20px auto;
+  }
+
+  .slides {
+    width: 90%;
+    display: grid;
+    animation: none;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .main__text h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slider {
+    width: 90%;
+    overflow: visible;
+    margin: 20px auto;
+  }
+
+  .slides {
+    width: 90%;
+    display: grid;
+    animation: none;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .slide:nth-child(5) {
+    grid-column-start: 2;
+  }
+
+  .main__text h2 {
+    font-size: 50px;
+  }
+}
