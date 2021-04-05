@@ -1,6 +1,8 @@
 @import "./styles/reset.scss";
 @import "./styles/header.scss";
 @import "./styles/slider.scss";
+@import "./styles/tableaux.scss";
+@import "./styles/environment.scss";
 
 /* ----- */
 
@@ -41,4 +43,5 @@ img {
 body {
   font-family: "bubbble_gumlight";
   text-align: center;
+  font-weight: 900;
 }
