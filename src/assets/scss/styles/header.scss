@@ -31,13 +31,24 @@
 }
 
 .header__text {
-  margin: 0 10px;
+  margin: 0 10px 20px;
   padding: 10px 10px;
   background-color: white;
-  border-radius: 6px;
+  border-radius: 20px 0 20px 0;
+  max-width: 800px;
+  box-shadow: 3px 7px rgb(50 50 50 / 60%);
 }
 
 .header__text p {
   color: black;
   font-size: 20px;
+}
+
+@media (min-width: 900px) {
+  .header__title {
+    font-size: 60px;
+  }
+  .header__title--bold {
+    font-size: 60px;
+  }
 }
