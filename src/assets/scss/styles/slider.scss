@@ -20,6 +20,9 @@
   width: 150px;
   overflow: hidden;
   margin: 20px auto;
+  figcaption {
+    font-family: "alphakindregular";
+  }
 }
 
 .slides {
@@ -75,10 +78,6 @@
   }
 }
 /* ----- */
-
-figcaption {
-  font-family: "alphakindregular";
-}
 
 @media (min-width: 500px) {
   .slider {
